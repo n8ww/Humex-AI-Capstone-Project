@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Human Flow System Portal</title>
+
+  <script>
+    document.addEventListener('click', function(e) {
+      // إذا ضغط المستخدم على أي زر أو رابط يحتوي على كلمة "دخول" أو "Login"
+      if (e.target.innerText && (e.target.innerText.includes('دخول') || e.target.innerText.toLowerCase().includes('login'))) {
+        e.preventDefault();
+        window.location.href = "http://localhost:8501";
+      }
+    }, True);
+  </script>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
