@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ارتقاء — خدمات أكاديمية ومهنية للطلاب</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -80,6 +79,7 @@ body {
   text-rendering: optimizeLegibility;
   line-height: 1.7;
   font-weight: 400;
+  font-size: 15px;
 }
 
 ::selection { background: var(--navy); color: white; }
@@ -149,7 +149,7 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 26px;
   color: var(--navy);
@@ -181,19 +181,19 @@ body {
 
 .logo-text-ar {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 800;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 26px;
   color: var(--navy);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 .logo-text-en {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 10px;
   color: var(--gold-2);
-  letter-spacing: 0.3em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .nav-links {
@@ -205,7 +205,7 @@ body {
 
 .nav-link {
   padding: 10px 18px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--ink-2);
   text-decoration: none;
@@ -364,8 +364,8 @@ body {
   margin-bottom: 32px;
   padding-bottom: 4px;
   border-bottom: 1px solid var(--gold);
-  font-family: 'Playfair Display', serif;
-  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
   font-weight: 500;
   color: var(--ink-2);
   text-transform: uppercase;
@@ -375,17 +375,17 @@ body {
 
 .hero-h1 {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: clamp(36px, 6vw, 64px);
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-size: clamp(32px, 4.5vw, 48px);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
   color: var(--navy);
   margin-bottom: 24px;
 }
 .hero-h1 .accent {
   color: var(--gold-2);
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-style: normal;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -398,11 +398,12 @@ body {
 }
 
 .hero-sub {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   color: var(--ink-3);
   margin-bottom: 40px;
   max-width: 540px;
+  font-weight: 400;
 }
 
 .hero-ctas {
@@ -479,17 +480,18 @@ body {
   gap: 4px;
 }
 .trust-stat-num {
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
   color: var(--navy);
   line-height: 1;
+  letter-spacing: -0.02em;
 }
 .trust-stat-num .gold { color: var(--gold-2); }
 .trust-stat-label {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--ink-3);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .trust-divider {
@@ -552,7 +554,7 @@ body {
 }
 
 .doc-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: var(--navy);
@@ -568,7 +570,7 @@ body {
 }
 
 .doc-section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 11px;
   font-weight: 700;
   color: var(--navy);
@@ -615,7 +617,7 @@ body {
   display: grid;
   place-items: center;
   color: var(--gold-2);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 9px;
   font-weight: 700;
   text-align: center;
@@ -627,7 +629,7 @@ body {
 /* ============== SECTION HEADERS ============== */
 .section-header {
   text-align: center;
-  margin-bottom: 64px;
+  margin-bottom: 80px;
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -638,12 +640,12 @@ body {
   align-items: center;
   gap: 12px;
   margin-bottom: 16px;
-  font-family: 'Playfair Display', serif;
-  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
   font-weight: 500;
   color: var(--ink-3);
   text-transform: uppercase;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
 }
 .section-eyebrow .line {
   width: 30px;
@@ -653,17 +655,17 @@ body {
 
 .section-h2 {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: clamp(32px, 4.5vw, 48px);
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-size: clamp(26px, 3.5vw, 36px);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
   color: var(--navy);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .section-h2 .accent {
   color: var(--gold-2);
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-style: normal;
   font-weight: 600;
 }
 
@@ -675,9 +677,10 @@ body {
 }
 
 .section-sub {
-  font-size: 17px;
+  font-size: 15px;
   color: var(--ink-3);
-  line-height: 1.7;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 /* ============== STATS BAR ============== */
@@ -725,9 +728,9 @@ body {
 }
 
 .stat-num {
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  font-size: 56px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 44px;
   line-height: 1;
   color: var(--gold);
   margin-bottom: 8px;
@@ -735,14 +738,14 @@ body {
 }
 
 .stat-label {
-  font-size: 14px;
-  color: rgba(255,255,255,0.7);
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
   font-weight: 400;
 }
 
 /* ============== SERVICES ============== */
 .services {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--bg);
 }
 
@@ -788,7 +791,7 @@ body {
 }
 
 .service-number {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: var(--gold-2);
@@ -833,19 +836,21 @@ body {
 
 .service-title {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 19px;
   color: var(--navy);
   margin-bottom: 12px;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
 }
 
 .service-desc {
   color: var(--ink-3);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7;
   margin-bottom: 28px;
   min-height: 70px;
+  font-weight: 400;
 }
 
 .service-features {
@@ -877,7 +882,7 @@ body {
 }
 
 .service-price {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
 }
 .service-price .from {
   display: block;
@@ -933,7 +938,7 @@ body {
 
 /* ============== SERVICE DETAILS ============== */
 .service-details {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--paper);
   border-top: 1px solid var(--border);
 }
@@ -975,7 +980,7 @@ body {
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: var(--gold-2);
@@ -987,7 +992,7 @@ body {
   font-size: 22px;
   font-weight: 800;
   color: var(--navy);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   border: 1px solid var(--gold);
   padding: 6px 14px;
   display: grid;
@@ -996,20 +1001,21 @@ body {
 
 .detail-title {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: clamp(28px, 4vw, 40px);
-  line-height: 1.2;
+  font-weight: 600;
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1.4;
   color: var(--navy);
   margin-bottom: 16px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .detail-subtitle {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 18px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-style: normal;
+  font-size: 15px;
   color: var(--gold-2);
   margin-bottom: 24px;
+  font-weight: 500;
 }
 
 .detail-divider {
@@ -1020,10 +1026,11 @@ body {
 }
 
 .detail-paragraph {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.9;
   color: var(--ink-2);
   margin-bottom: 28px;
+  font-weight: 400;
 }
 
 .detail-benefits-title {
@@ -1064,7 +1071,7 @@ body {
   color: var(--gold-2);
   display: grid;
   place-items: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 13px;
   flex-shrink: 0;
@@ -1109,7 +1116,7 @@ body {
   font-weight: 500;
 }
 .detail-price-tag .amount {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 24px;
   color: var(--navy);
@@ -1192,7 +1199,7 @@ body {
 }
 
 .visual-stat-num {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 32px;
   color: var(--navy);
@@ -1230,7 +1237,7 @@ body {
 }
 
 .comparison-vs {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: var(--gold-2);
   font-size: 11px;
@@ -1267,7 +1274,7 @@ body {
   position: absolute;
   top: 8px;
   right: 16px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 48px;
   color: var(--gold);
   line-height: 1;
@@ -1367,7 +1374,7 @@ body {
 
 /* ============== EXAMPLES / SHOWCASE ============== */
 .examples-section {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--bg);
   border-top: 1px solid var(--border);
 }
@@ -1505,7 +1512,7 @@ body {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 22px;
   flex-shrink: 0;
@@ -1513,7 +1520,7 @@ body {
 }
 
 .mockup-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: var(--ink);
@@ -1534,7 +1541,7 @@ body {
 }
 
 .mockup-section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 10px;
   color: var(--ink);
@@ -1593,7 +1600,7 @@ body {
   align-items: center;
   gap: 12px;
   margin-bottom: 12px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 11px;
   font-weight: 600;
   color: var(--gold-2);
@@ -1676,7 +1683,7 @@ body {
 
 /* ============== HOW IT WORKS ============== */
 .how-section {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--paper);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -1705,18 +1712,19 @@ body {
 }
 
 .step-num-circle {
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
   margin: 0 auto 20px;
   background: var(--navy);
   color: var(--gold);
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  font-size: 22px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
   position: relative;
+  letter-spacing: 0;
 }
 .step-num-circle::after {
   content: '';
@@ -1736,21 +1744,23 @@ body {
 
 .step-title {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   color: var(--navy);
   margin-bottom: 8px;
+  letter-spacing: -0.005em;
 }
 
 .step-desc {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--ink-3);
-  line-height: 1.6;
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 /* ============== PRICING ============== */
 .pricing {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--bg);
 }
 
@@ -1807,7 +1817,7 @@ body {
 }
 
 .tier-eyebrow {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.25em;
@@ -1819,18 +1829,20 @@ body {
 
 .tier-name {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 600;
+  font-size: 22px;
   margin-bottom: 8px;
   color: var(--navy);
+  letter-spacing: -0.01em;
 }
 .tier-popular .tier-name { color: white; }
 
 .tier-desc {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--ink-3);
   margin-bottom: 32px;
   line-height: 1.6;
+  font-weight: 400;
 }
 .tier-popular .tier-desc { color: rgba(255,255,255,0.7); }
 
@@ -1847,18 +1859,18 @@ body {
   gap: 8px;
 }
 .tier-price-amount {
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  font-size: 64px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
   line-height: 1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   color: var(--navy);
 }
 .tier-popular .tier-price-amount { color: var(--gold); }
 
 .tier-price-currency {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   color: var(--ink-3);
 }
 .tier-popular .tier-price-currency { color: rgba(255,255,255,0.6); }
@@ -1934,7 +1946,7 @@ body {
 
 /* ============== TESTIMONIALS ============== */
 .testimonials {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--paper);
   border-top: 1px solid var(--border);
 }
@@ -1963,12 +1975,12 @@ body {
 }
 
 .test-quote-mark {
-  font-family: 'Playfair Display', serif;
-  font-size: 64px;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
   line-height: 0.8;
   color: var(--gold);
   margin-bottom: 16px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .test-stars {
@@ -1983,11 +1995,12 @@ body {
 }
 
 .test-quote {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.8;
   color: var(--ink-2);
   margin-bottom: 24px;
   flex: 1;
+  font-weight: 400;
 }
 
 .test-author-row {
@@ -2006,7 +2019,7 @@ body {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 18px;
   flex-shrink: 0;
@@ -2025,7 +2038,7 @@ body {
 
 /* ============== FAQ ============== */
 .faq-section {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--bg);
 }
 
@@ -2056,8 +2069,8 @@ body {
   font-family: inherit;
   text-align: right;
   color: var(--navy);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 15px;
   transition: color 0.2s;
 }
 .faq-q:hover { color: var(--navy-2); }
@@ -2087,9 +2100,10 @@ body {
   transition: max-height 0.4s ease, padding 0.4s ease;
   padding: 0 28px;
   color: var(--ink-3);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.8;
   border-top: 1px solid transparent;
+  font-weight: 400;
 }
 .faq-item.open .faq-a {
   max-height: 300px;
@@ -2100,7 +2114,7 @@ body {
 
 /* ============== CTA SECTION ============== */
 .cta-section {
-  padding: 100px 0;
+  padding: 140px 0;
   background: var(--navy);
   color: white;
   position: relative;
@@ -2137,7 +2151,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: var(--gold);
@@ -2148,27 +2162,28 @@ body {
 
 .cta-h2 {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-weight: 700;
-  font-size: clamp(36px, 5vw, 56px);
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
   margin-bottom: 24px;
 }
 .cta-h2 .accent {
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-style: normal;
   font-weight: 600;
 }
 
 .cta-text {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: rgba(255,255,255,0.7);
   margin-bottom: 40px;
   max-width: 540px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 400;
 }
 
 .cta-section .btn-cta-primary {
@@ -2219,7 +2234,7 @@ body {
 }
 
 .footer-col h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 13px;
   color: var(--gold);
@@ -2354,7 +2369,7 @@ body {
 }
 
 .modal-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 22px;
   color: var(--navy);
@@ -2410,7 +2425,7 @@ body {
   margin-bottom: 4px;
 }
 .modal-service-price {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: var(--gold-2);
@@ -2521,7 +2536,7 @@ body {
 .success-icon svg { width: 40px; height: 40px; }
 
 .success-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 28px;
   color: var(--navy);
@@ -2540,7 +2555,7 @@ body {
   border: 1px solid var(--border);
   padding: 16px 24px;
   display: inline-block;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 28px;
@@ -2719,6 +2734,163 @@ body {
       <div class="stat-item">
         <div class="stat-num">+7</div>
         <div class="stat-label">شركاء</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EXAMPLES / SHOWCASE ========== -->
+<section class="examples-section" id="examples">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="line"></span>
+        <span>أعمالنا</span>
+        <span class="line"></span>
+      </div>
+      <h2 class="section-h2">
+        بورتفوليوهات <span class="accent">حقيقية</span><br>
+        صنعناها بأنفسنا
+      </h2>
+      <div class="section-h2-divider"></div>
+      <p class="section-sub">
+        شاهد بنفسك جودة أعمالنا من خلال نماذج حقيقية لبورتفوليوهات قمنا بتصميمها وتطويرها
+      </p>
+    </div>
+
+    <div class="examples-grid">
+      <!-- مثال 1: عبدالملك (المؤسس) -->
+      <div class="example-card">
+        <div class="example-preview">
+          <div class="example-browser">
+            <div class="browser-bar">
+              <div class="browser-dots">
+                <div class="browser-dot"></div>
+                <div class="browser-dot"></div>
+                <div class="browser-dot"></div>
+              </div>
+              <div class="browser-url">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                abdulmalek.site
+              </div>
+            </div>
+            <div class="browser-content">
+              <div class="mockup-portfolio">
+                <div class="mockup-header">
+                  <div class="mockup-avatar" style="background: var(--navy); color: var(--gold);">ع</div>
+                  <div>
+                    <div class="mockup-name">عبدالملك الغامدي</div>
+                    <div class="mockup-title">FOUNDER · DEVELOPER</div>
+                  </div>
+                </div>
+
+                <div class="mockup-section">
+                  <div class="mockup-section-title">عن المؤسس</div>
+                  <div class="mockup-line"></div>
+                  <div class="mockup-line mid"></div>
+                  <div class="mockup-line short"></div>
+                </div>
+
+                <div class="mockup-section">
+                  <div class="mockup-section-title">المشاريع</div>
+                  <div class="mockup-projects">
+                    <div class="mockup-project" style="background: var(--navy);"></div>
+                    <div class="mockup-project" style="background: var(--gold);"></div>
+                    <div class="mockup-project" style="background: var(--ink-3);"></div>
+                    <div class="mockup-project" style="background: var(--gold-light);"></div>
+                  </div>
+                </div>
+
+                <div class="mockup-tags">
+                  <span class="mockup-tag">Web Development</span>
+                  <span class="mockup-tag">Design</span>
+                  <span class="mockup-tag">Branding</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="example-info">
+          <div class="example-meta">
+            <span class="example-founder-badge">★ المؤسس</span>
+            <span class="dot"></span>
+            <span>بورتفوليو شخصي</span>
+          </div>
+          <h3 class="example-name">عبدالملك الغامدي</h3>
+          <p class="example-role">مؤسس ارتقاء — مطوّر ومصمّم</p>
+          <a href="https://abdulmalek.site" target="_blank" class="example-link">
+            <span>abdulmalek.site</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- مثال 2: محمد -->
+      <div class="example-card">
+        <div class="example-preview">
+          <div class="example-browser">
+            <div class="browser-bar">
+              <div class="browser-dots">
+                <div class="browser-dot"></div>
+                <div class="browser-dot"></div>
+                <div class="browser-dot"></div>
+              </div>
+              <div class="browser-url">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                mohmmed.site
+              </div>
+            </div>
+            <div class="browser-content">
+              <div class="mockup-portfolio">
+                <div class="mockup-header">
+                  <div class="mockup-avatar" style="background: var(--gold); color: var(--navy);">م</div>
+                  <div>
+                    <div class="mockup-name">محمد</div>
+                    <div class="mockup-title">PORTFOLIO · 2024</div>
+                  </div>
+                </div>
+
+                <div class="mockup-section">
+                  <div class="mockup-section-title">السيرة المهنية</div>
+                  <div class="mockup-line"></div>
+                  <div class="mockup-line mid"></div>
+                  <div class="mockup-line short"></div>
+                </div>
+
+                <div class="mockup-section">
+                  <div class="mockup-section-title">الأعمال</div>
+                  <div class="mockup-projects">
+                    <div class="mockup-project" style="background: var(--gold-light);"></div>
+                    <div class="mockup-project" style="background: var(--navy);"></div>
+                    <div class="mockup-project" style="background: var(--gold);"></div>
+                    <div class="mockup-project" style="background: var(--ink-2);"></div>
+                  </div>
+                </div>
+
+                <div class="mockup-tags">
+                  <span class="mockup-tag">UI/UX</span>
+                  <span class="mockup-tag">Portfolio</span>
+                  <span class="mockup-tag">Personal</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="example-info">
+          <div class="example-meta">
+            <span>عميلنا</span>
+            <span class="dot"></span>
+            <span>بورتفوليو شخصي</span>
+          </div>
+          <h3 class="example-name">محمد</h3>
+          <p class="example-role">بورتفوليو شخصي بتصميم احترافي</p>
+          <a href="https://mohmmed.site" target="_blank" class="example-link">
+            <span>mohmmed.site</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -3209,163 +3381,6 @@ body {
   </div>
 </section>
 
-<!-- ========== EXAMPLES / SHOWCASE ========== -->
-<section class="examples-section" id="examples">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-eyebrow">
-        <span class="line"></span>
-        <span>أمثلة من أعمالنا</span>
-        <span class="line"></span>
-      </div>
-      <h2 class="section-h2">
-        بورتفوليوهات <span class="accent">حقيقية</span><br>
-        صنعناها بأنفسنا
-      </h2>
-      <div class="section-h2-divider"></div>
-      <p class="section-sub">
-        شاهد بنفسك جودة أعمالنا من خلال نماذج حقيقية لبورتفوليوهات قمنا بتصميمها وتطويرها
-      </p>
-    </div>
-
-    <div class="examples-grid">
-      <!-- مثال 1: عبدالملك (المؤسس) -->
-      <div class="example-card">
-        <div class="example-preview">
-          <div class="example-browser">
-            <div class="browser-bar">
-              <div class="browser-dots">
-                <div class="browser-dot"></div>
-                <div class="browser-dot"></div>
-                <div class="browser-dot"></div>
-              </div>
-              <div class="browser-url">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
-                abdulmalek.site
-              </div>
-            </div>
-            <div class="browser-content">
-              <div class="mockup-portfolio">
-                <div class="mockup-header">
-                  <div class="mockup-avatar" style="background: var(--navy); color: var(--gold);">ع</div>
-                  <div>
-                    <div class="mockup-name">عبدالملك الغامدي</div>
-                    <div class="mockup-title">FOUNDER · DEVELOPER</div>
-                  </div>
-                </div>
-
-                <div class="mockup-section">
-                  <div class="mockup-section-title">عن المؤسس</div>
-                  <div class="mockup-line"></div>
-                  <div class="mockup-line mid"></div>
-                  <div class="mockup-line short"></div>
-                </div>
-
-                <div class="mockup-section">
-                  <div class="mockup-section-title">المشاريع</div>
-                  <div class="mockup-projects">
-                    <div class="mockup-project" style="background: var(--navy);"></div>
-                    <div class="mockup-project" style="background: var(--gold);"></div>
-                    <div class="mockup-project" style="background: var(--ink-3);"></div>
-                    <div class="mockup-project" style="background: var(--gold-light);"></div>
-                  </div>
-                </div>
-
-                <div class="mockup-tags">
-                  <span class="mockup-tag">Web Development</span>
-                  <span class="mockup-tag">Design</span>
-                  <span class="mockup-tag">Branding</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="example-info">
-          <div class="example-meta">
-            <span class="example-founder-badge">★ المؤسس</span>
-            <span class="dot"></span>
-            <span>بورتفوليو شخصي</span>
-          </div>
-          <h3 class="example-name">عبدالملك الغامدي</h3>
-          <p class="example-role">مؤسس ارتقاء — مطوّر ومصمّم</p>
-          <a href="https://abdulmalek.site" target="_blank" class="example-link">
-            <span>abdulmalek.site</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <!-- مثال 2: محمد -->
-      <div class="example-card">
-        <div class="example-preview">
-          <div class="example-browser">
-            <div class="browser-bar">
-              <div class="browser-dots">
-                <div class="browser-dot"></div>
-                <div class="browser-dot"></div>
-                <div class="browser-dot"></div>
-              </div>
-              <div class="browser-url">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
-                mohmmed.site
-              </div>
-            </div>
-            <div class="browser-content">
-              <div class="mockup-portfolio">
-                <div class="mockup-header">
-                  <div class="mockup-avatar" style="background: var(--gold); color: var(--navy);">م</div>
-                  <div>
-                    <div class="mockup-name">محمد</div>
-                    <div class="mockup-title">PORTFOLIO · 2024</div>
-                  </div>
-                </div>
-
-                <div class="mockup-section">
-                  <div class="mockup-section-title">السيرة المهنية</div>
-                  <div class="mockup-line"></div>
-                  <div class="mockup-line mid"></div>
-                  <div class="mockup-line short"></div>
-                </div>
-
-                <div class="mockup-section">
-                  <div class="mockup-section-title">الأعمال</div>
-                  <div class="mockup-projects">
-                    <div class="mockup-project" style="background: var(--gold-light);"></div>
-                    <div class="mockup-project" style="background: var(--navy);"></div>
-                    <div class="mockup-project" style="background: var(--gold);"></div>
-                    <div class="mockup-project" style="background: var(--ink-2);"></div>
-                  </div>
-                </div>
-
-                <div class="mockup-tags">
-                  <span class="mockup-tag">UI/UX</span>
-                  <span class="mockup-tag">Portfolio</span>
-                  <span class="mockup-tag">Personal</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="example-info">
-          <div class="example-meta">
-            <span>عميلنا</span>
-            <span class="dot"></span>
-            <span>بورتفوليو شخصي</span>
-          </div>
-          <h3 class="example-name">محمد</h3>
-          <p class="example-role">بورتفوليو شخصي بتصميم احترافي</p>
-          <a href="https://mohmmed.site" target="_blank" class="example-link">
-            <span>mohmmed.site</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ========== HOW IT WORKS ========== -->
 <section class="how-section" id="how">
   <div class="container">
@@ -3741,10 +3756,10 @@ body {
       <div class="footer-col">
         <h4>تواصل معنا</h4>
         <ul>
-          <li><a href="#">واتساب</a></li>
-          <li><a href="mailto:hello@irtiqa.sa">hello@irtiqa.sa</a></li>
-          <li><a href="tel:+966559057707">+966 50 000 0000</a></li>
-          <li><a href="#">الرياض، السعودية</a></li>
+          <li><a href="https://wa.me/966559057707" target="_blank">واتساب: 0559057707</a></li>
+          <li><a href="mailto:Abdulmalek.Alghamdi@outlook.com">Abdulmalek.Alghamdi@outlook.com</a></li>
+          <li><a href="tel:+966559057707">+966 55 905 7707</a></li>
+          <li><a href="#">حفر الباطن، السعودية</a></li>
         </ul>
       </div>
     </div>
